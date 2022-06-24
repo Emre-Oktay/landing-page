@@ -88,6 +88,38 @@
     color: #1f2937;
 }
 
+.info-container {
+    padding: 10px 182px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.info-box {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    width: 180px;
+    color: #1f2937;
+}
+
 body {
     margin: 0;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
